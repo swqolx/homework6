@@ -97,11 +97,11 @@
 // Всередині оголосити змінну let i.
 // Перевірити, чи доступний i зовні циклу.
 
-for(let i = 0; i<max ; i++){
-    console.log("block", i);
+// for(let i = 0; i<5 ; i++){
+//     console.log("block", i);
     
-}
-console.log("global", i);
+// }
+// console.log("global", i);
 
 // 19.
 
@@ -119,3 +119,19 @@ console.log("global", i);
 
 // Написати програму, яка показує проблему відсутності break у switch:
 // Зробити кейси без break і показати, як виконується кілька кейсів поспіль.
+
+// const userNumber = prompt("choose number: 1,2,3")
+// switch (userNumber){
+//     case "1":
+//         alert("num 1")
+
+//     case "2":
+//         alert("num 2")
+
+//     case "3":
+//         alert("num 3")    
+
+
+//     default:
+//         alert("end")
+// }
